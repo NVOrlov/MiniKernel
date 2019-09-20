@@ -1,0 +1,17 @@
+MiniKernel is a small i386 operating system kernel written in FASM
+Kernel is still in development, and only these features are completed:
+- bootloader
+- i386 protected mode
+- printing routins
+- higher half kernel
+- interrupts (including routins for fake interrupts handling)
+- timer
+For the next release:
+- ATA driver
+- FAT
+
+To build and test kernel with bochs:
+fasm main.asm
+bochs -f config.cfg
+
+Thank you for your attention to this little project!
